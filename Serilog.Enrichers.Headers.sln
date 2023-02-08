@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Enrichers.Headers.Tests", "test\Serilog.Enrichers.Headers.Tests\Serilog.Enrichers.Headers.Tests.csproj", "{96117DB2-8CA1-4F4A-8B49-1F8489C8544B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Enrichers.Headers", "src\Serilog.Enrichers.Headers\Serilog.Enrichers.Headers.csproj", "{212A0940-1946-4488-8B14-1E83C7314D68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96117DB2-8CA1-4F4A-8B49-1F8489C8544B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96117DB2-8CA1-4F4A-8B49-1F8489C8544B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96117DB2-8CA1-4F4A-8B49-1F8489C8544B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96117DB2-8CA1-4F4A-8B49-1F8489C8544B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212A0940-1946-4488-8B14-1E83C7314D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212A0940-1946-4488-8B14-1E83C7314D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212A0940-1946-4488-8B14-1E83C7314D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212A0940-1946-4488-8B14-1E83C7314D68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {785F0E90-8DC5-4003-AD7A-33DE806F3B3A}
+	EndGlobalSection
+EndGlobal
